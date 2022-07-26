@@ -7,15 +7,34 @@
 	xmlns:a4j="http://richfaces.org/a4j">
 
   <head>
-    <title>RichFaces</title>
+    <meta  http-equiv="Content-Type" content="text/html; charset=utf-8" />
   </head>
 
   <body>
-  	<rich:panel>
-  		<f:facet name="header">
-  			JBoss RichFaces
-  		</f:facet>
-  		Looks like you are up and running...
-  	</rich:panel>
+  <h:form style="text-align:right">
+  <a4j:commandButton action="startS" value="Dark-Mode" style="COLOR: #ffffff; BACKGROUND-COLOR: #000000;"/>
+  </h:form>
+  <div style="text-align: center">
+  <h:graphicImage value="/Composant/PowerLogo.png" style="height:150px;width:150"/>
+  	<p style="font-size: 50px">CASH POWER <span style="color: red">MANAGEMENT</span></p>
+  	<h:form>
+  	<a4j:commandButton action="Save" value="Commencer" data="Bienvenu sur STUDGEST" oncomplete="alert(data)"/>
+  	</h:form>
+  	
+  </div><br/><br />
+  <div style="background-color:#1c1947;height:250px">
+  <h:form>
+  <br /><br />
+	  <div style="text-align: center;font-size:20px"><h:commandLink action="Apropo" value="A propos"/><br/></div>
+	  <br /><br /><br /><br />
+	  <h:outputText value="Contantez les developpeurs:" /><br/>
+	  <h:commandLink action="support@gmail.com" value="E-Mail:support@gmail.com " /><br/>
+	  <h:commandLink action="https//github.com/tonycarlin2306" value="Github Link:https//github.com/tonycarlin2306" /><br/>
+	  <h:commandLink action="https//github.com/Ace7260" value="Github Link:https//github.com/Ace7260" />
+  </h:form><br /><br />
+  <h4 style="text-align: center">Copyright ©2021 CashPowerManagement</h4>
+  
+  </div>
   </body>
+  
 </html>
